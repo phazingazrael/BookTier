@@ -1,0 +1,55 @@
+{
+    "order": [
+        "S",
+        "A",
+        "B",
+        "C",
+        "D",
+        "F",
+        "Unranked"
+    ],
+    "tiers": {
+        "Unranked": {
+            "id": "unranked",
+            "name": "Unranked",
+            "title": "Unranked",
+            "books": []
+        },
+        "S": {
+            "id": "s-tier",
+            "name": "S Tier",
+            "title": "S",
+            "books": []
+        },
+        "A": {
+            "id": "a-tier",
+            "name": "A Tier",
+            "title": "A",
+            "books": []
+        },
+        "B": {
+            "id": "b-tier",
+            "name": "B Tier",
+            "title": "B",
+            "books": []
+        },
+        "C": {
+            "id": "c-tier",
+            "name": "C Tier",
+            "title": "C",
+            "books": []
+        },
+        "D": {
+            "id": "d-tier",
+            "name": "D Tier",
+            "title": "D",
+            "books": []
+        },
+        "F": {
+            "id": "f-tier",
+            "name": "F Tier",
+            "title": "F",
+            "books": []
+        }
+    }
+}

@@ -1,0 +1,90 @@
+.tier-container{}
+
+.row-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.tier-header {
+  flex-direction: column;
+  width: 120px !important;
+  display: flex;
+  flex: 1;
+}
+
+.tier-header div {
+  text-align: center;
+  font-size: xx-large; 
+  margin: 5px;
+  height: -webkit-fill-available;
+  display:table;
+}
+
+.tier-header div h3{
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.tier-list-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 4;
+}
+
+.tier-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(125px, 1fr));
+}
+
+.tier-item {
+}
+
+.tier-item img {
+  width: -webkit-fill-available;
+}
+
+.tier-divider {
+  background-color: rgb(90, 89, 90);
+  width: 100%;
+  height: 5px;
+}
+
+.tier-s {}
+
+.tier-s .tier-header {
+  background-color: rgb(127, 255, 127);
+}
+
+.tier-a {}
+
+.tier-a .tier-header {
+  background-color: rgb(191, 255, 127);
+}
+
+.tier-b {}
+
+.tier-b .tier-header {
+  background-color: rgb(255, 255, 127);
+}
+
+.tier-c {}
+
+.tier-c .tier-header {
+  background-color: rgb(255, 255, 127);
+}
+
+.tier-d {}
+
+.tier-d .tier-header {
+  background-color: rgb(255, 223, 128);
+}
+
+.tier-f {}
+
+.tier-f .tier-header {
+  background-color: rgb(255, 127, 128);
+  flex-direction: column;
+  width: 120px !important;  
+}
+
+

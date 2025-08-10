@@ -1,0 +1,28 @@
+.body {
+    max-width: none !important;
+}
+
+.header{
+    margin-bottom: 1dvh;
+}
+
+.header-subtitle{
+    margin-left: 25dvh !important;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar{
+    display:flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.content{
+    display:flex;
+    flex-direction: column;
+    flex: 4;
+}

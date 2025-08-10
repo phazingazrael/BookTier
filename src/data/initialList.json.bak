@@ -1,0 +1,324 @@
+{
+    "books": {
+        "book-1": {
+            "name": "Cradle",
+            "link": "/reviews/cradle/",
+            "abslink": "https://cosmiccoding.com.au/reviews/cradle/",
+            "author": "Will Wight",
+            "review": "S",
+            "weight": 2,
+            "date": "2021-04-21T00:00:00Z",
+            "id": "book-1",
+            "tags": [
+                "companion",
+                "cultivation"
+            ],
+            "links": [
+                {
+                    "name": "amazon",
+                    "link": "https://www.amazon.com/Cradle-Foundation-Collected-Book-ebook/dp/B076G8DVN6"
+                },
+                {
+                    "name": "audible",
+                    "link": "https://www.audible.com/pd/Unsouled-Audiobook/B07XTNWRFF"
+                }
+            ],
+            "title": "Cradle",
+            "sentence": "Lindon is Unsouled and forbidden to learn the sacred arts, so he forges his own Path.",
+            "description": "Cultivation. The current King of Progression Fantasy. Staggeringly good. Amazing characters, strong motivation, a beautiful system, rich world, and fast pace, it's a dream come true to read.",
+            "img": "https://cosmiccoding.com.au/reviews/cradle/cover_hu7829902246302402212.webp"
+        },
+        "book-2": {
+            "name": "Mother of Learning",
+            "link": "/reviews/mother_of_learning/",
+            "abslink": "https://cosmiccoding.com.au/reviews/mother_of_learning/",
+            "author": "nobody13",
+            "review": "S",
+            "id": "book-2",
+            "weight": 5,
+            "date": "2021-09-08T00:00:00Z",
+            "tags": [
+                "crafting",
+                "magic-school",
+                "time-loops"
+            ],
+            "links": [
+                {
+                    "name": "amazon",
+                    "link": "https://www.amazon.com/dp/B09M2R6QLF"
+                },
+                {
+                    "name": "audible",
+                    "link": "https://www.audible.com/pd/Mother-of-Learning-Arc-1-Audiobook/B09MXJQG1Z"
+                },
+                {
+                    "name": "royal_road",
+                    "link": "https://www.royalroad.com/fiction/21220/mother-of-learning"
+                }
+            ],
+            "title": "Mother of Learning",
+            "sentence": "Zorian Kazinski has all the time in the world to get stronger, and he plans on taking full advantage of it.",
+            "description": "Progression fantasy, and time loops done right. Smart MC, great plot, varied magic systems. Groundhog day has nothing on this.",
+            "img": "https://cosmiccoding.com.au/reviews/mother_of_learning/cover_hu4982224223221914793.webp"
+        },
+        "book-3": {
+            "name": "Mage Errant",
+            "link": "/reviews/mage_errant/",
+            "abslink": "https://cosmiccoding.com.au/reviews/mage_errant/",
+            "author": "John Bierce",
+            "review": "S",
+            "weight": 7,
+            "id": "book-3",
+            "date": "2021-11-19T00:00:00Z",
+            "tags": [
+                "finished",
+                "hard-magic",
+                "magic-school"
+            ],
+            "links": [
+                {
+                    "name": "amazon",
+                    "link": "https://www.amazon.com/Into-Labyrinth-Mage-Errant-Book-ebook/dp/B07J675X2C"
+                },
+                {
+                    "name": "audible",
+                    "link": "https://www.audible.com/pd/Mage-Errant-Publishers-Pack-Audiobook/1774240130"
+                }
+            ],
+            "title": "Mage Errant",
+            "sentence": "Hugh of Emblin is, so far as he's concerned, the worst student that the Academy at Skyhold has ever seen.",
+            "description": "Progression fantasy, some academic focused books. A struggling protagonist gets dragged into adventure. Characters are people who grow both in power, abilities, and as people. I appreciate this a lot.",
+            "img": "https://cosmiccoding.com.au/reviews/mage_errant/cover_hu15738478353964452204.webp"
+        },
+        "book-4": {
+            "name": "Iron Prince",
+            "link": "/reviews/iron_prince/",
+            "abslink": "https://cosmiccoding.com.au/reviews/iron_prince/",
+            "author": "Bryce O'Connor",
+            "review": "S",
+            "id": "book-4",
+            "weight": 7,
+            "date": "2021-07-20T00:00:00Z",
+            "tags": [
+                "in-progress",
+                "magic-school",
+                "sci-fi"
+            ],
+            "links": [
+                {
+                    "name": "amazon",
+                    "link": "https://www.amazon.com/Iron-Prince-Warformed-Stormweaver-Book-ebook/dp/B08KGT4CLQ"
+                },
+                {
+                    "name": "audible",
+                    "link": "https://www.audible.com/pd/Iron-Prince-Audiobook/1774246031"
+                }
+            ],
+            "title": "Iron Prince",
+            "sentence": "Reidon Ward will become a god. He doesn't know it yet, of course.",
+            "description": "Scifi/progression/LitRPG crossover in an academic settings. Who needs magic when you have funky alien tech that gives you  the best of fantasy and LitRPG in one swoop.",
+            "img": "https://cosmiccoding.com.au/reviews/iron_prince/cover_hu15375104215332788459.webp"
+        },
+        "book-5": {
+            "name": "Dungeon Crawler Carl",
+            "link": "/reviews/dungeon_crawler_carl/",
+            "abslink": "https://cosmiccoding.com.au/reviews/dungeon_crawler_carl/",
+            "author": "Matt Dinniman",
+            "review": "S",
+            "id": "book-5",
+            "weight": 8,
+            "date": "2022-01-10T00:00:00Z",
+            "tags": [
+                "companion",
+                "in-progress",
+                "litrpg",
+                "system-apocalypse"
+            ],
+            "links": [
+                {
+                    "name": "amazon",
+                    "link": "https://www.amazon.com/Dungeon-Crawler-Carl-Gamelit-Adventure-ebook/dp/B08BKGYQXW"
+                },
+                {
+                    "name": "audible",
+                    "link": "https://www.audible.com/pd/Dungeon-Crawler-Carl-Audiobook/B08V8B2CGV"
+                }
+            ],
+            "title": "Dungeon Crawler Carl",
+            "sentence": "A sadistic game where survival depends on killing your prey in the most entertaining way possible.",
+            "description": "System apocalypse LitRPG. Carl and Princess Donut are the real power couple I never knew I needed. Great pair dynamics, crazy hijinks, and just the right amount of larger plot.",
+            "img": "https://cosmiccoding.com.au/reviews/dungeon_crawler_carl/cover_hu17672914976095672274.webp"
+        },
+        "book-6": {
+            "name": "Arcane Ascension",
+            "link": "/reviews/arcane_ascension/",
+            "abslink": "https://cosmiccoding.com.au/reviews/arcane_ascension/",
+            "author": "Andrew Rowe",
+            "review": "S",
+            "weight": 8,
+            "id": "book-6",
+            "date": "2021-01-30T00:00:00Z",
+            "tags": [
+                "crafting",
+                "hard-magic",
+                "in-progress",
+                "lgbt",
+                "magic-school"
+            ],
+            "links": [
+                {
+                    "name": "amazon",
+                    "link": "https://www.amazon.com/gp/product/B06XBFD7CB"
+                },
+                {
+                    "name": "audible",
+                    "link": "https://www.audible.com/pd/Sufficiently-Advanced-Magic-Audiobook/B072YT93QD"
+                }
+            ],
+            "title": "Arcane Ascension",
+            "sentence": "Corin Cadence searches for his brother, who disappeared in the Serpent Spire.",
+            "description": "Progression fantasy in academic setting. Great world, detailed magic, intelligent characters, extraordinarily fun. Crafting and spire/dungeon focus.",
+            "img": "https://cosmiccoding.com.au/reviews/arcane_ascension/cover_hu7774916304451240678.webp"
+        },
+        "book-7": {
+            "name": "Thrones of the Fallen",
+            "link": "/reviews/thrones_of_the_fallen/",
+            "abslink": "https://cosmiccoding.com.au/reviews/thrones_of_the_fallen/",
+            "author": "Phil Tucker",
+            "review": "A",
+            "weight": 12,
+            "id": "book-7",
+            "date": "2024-04-01T00:00:00Z",
+            "tags": [
+                "in-progress",
+                "litrpg"
+            ],
+            "links": [
+                {
+                    "name": "patreon",
+                    "link": "https://www.patreon.com/philtucker"
+                },
+                {
+                    "name": "royal_road",
+                    "link": "https://www.royalroad.com/fiction/85769/thrones-of-the-fallen"
+                }
+            ],
+            "title": "Thrones of the Fallen",
+            "sentence": "Harald needs to follow in his father's footsteps and become one of the greatest dungeon delvers of all time.",
+            "description": "Dungeon delving LitRPG with heavy focus on characters and great worldbuilding. Excellent dialogue and action.",
+            "img": "https://cosmiccoding.com.au/reviews/thrones_of_the_fallen/cover_hu15363650258522315224.webp"
+        },
+        "book-8": {
+            "name": "Thrones of the Fallen",
+            "link": "/reviews/thrones_of_the_fallen/",
+            "abslink": "https://cosmiccoding.com.au/reviews/thrones_of_the_fallen/",
+            "author": "Phil Tucker",
+            "review": "A",
+            "weight": 12,
+            "id": "book-8",
+            "date": "2024-04-01T00:00:00Z",
+            "tags": [
+                "in-progress",
+                "litrpg"
+            ],
+            "links": [
+                {
+                    "name": "patreon",
+                    "link": "https://www.patreon.com/philtucker"
+                },
+                {
+                    "name": "royal_road",
+                    "link": "https://www.royalroad.com/fiction/85769/thrones-of-the-fallen"
+                }
+            ],
+            "title": "Thrones of the Fallen",
+            "sentence": "Harald needs to follow in his father's footsteps and become one of the greatest dungeon delvers of all time.",
+            "description": "Dungeon delving LitRPG with heavy focus on characters and great worldbuilding. Excellent dialogue and action.",
+            "img": "https://cosmiccoding.com.au/reviews/thrones_of_the_fallen/cover_hu15363650258522315224.webp"
+        },
+        "book-9": {
+            "name": "Super Supportive",
+            "link": "/reviews/super_supportive/",
+            "abslink": "https://cosmiccoding.com.au/reviews/super_supportive/",
+            "author": "Sleyca",
+            "review": "A",
+            "weight": 12,
+            "id": "book-9",
+            "date": "2023-08-17T00:00:00Z",
+            "tags": [
+                "in-progress",
+                "litrpg",
+                "sci-fi",
+                "superhero",
+                "wholesome"
+            ],
+            "links": [
+                {
+                    "name": "royal_road",
+                    "link": "https://www.royalroad.com/fiction/63759/super-supportive"
+                }
+            ],
+            "title": "Super Supportive",
+            "sentence": "Everyone wants to be a superhero. Including Alden Thorn.",
+            "description": "Modern superhero / System mashup with amazing writing, characters, and worldbuilding.",
+            "img": "https://cosmiccoding.com.au/reviews/super_supportive/cover_hu16719774676120431348.webp"
+        }
+    },
+    "columns": {
+        "s": {
+            "id": "s-tier",
+            "title": "S",
+            "bookIds": [
+                "book-1",
+                "book-2",
+                "book-3",
+                "book-4",
+                "book-5",
+                "book-6"
+            ]
+        },
+        "a": {
+            "id": "a-tier",
+            "title": "A",
+            "bookIds": [
+                "book-7",
+                "book-8",
+                "book-9"
+            ]
+        },
+        "b": {
+            "id": "b-tier",
+            "title": "B",
+            "bookIds": []
+        },
+        "c": {
+            "id": "c-tier",
+            "title": "C",
+            "bookIds": []
+        },
+        "d": {
+            "id": "d-tier",
+            "title": "D",
+            "bookIds": []
+        },
+        "f": {
+            "id": "f-tier",
+            "title": "F",
+            "bookIds": []
+        },
+        "unranked": {
+            "id": "unranked",
+            "title": "Unranked",
+            "bookIds": []
+        }
+    },
+    "columnOrder": [
+        "s",
+        "a",
+        "b",
+        "c",
+        "d",
+        "f",
+        "unranked"
+    ]
+}

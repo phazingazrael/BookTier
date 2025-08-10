@@ -1,0 +1,13 @@
+.sidebar-root {
+  border-right: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.sidebar-root .MuiButton-root {
+  text-transform: none;
+}
+
+.Loading {
+    display: "flex";
+    align-items: "center"; 
+    gap: 1;
+}
