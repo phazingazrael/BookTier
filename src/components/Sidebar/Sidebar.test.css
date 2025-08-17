@@ -1,3 +1,8 @@
+.sidebar{
+    max-width: 30dvw;
+    min-width: 30dvw;
+}
+
 .sidebar-root {
   border-right: 1px solid rgba(0, 0, 0, 0.08);
 }
@@ -10,4 +15,8 @@
     display: "flex";
     align-items: "center"; 
     gap: 1;
+}
+
+.sidebarResults{
+    border: 1px solid #ff0080;
 }

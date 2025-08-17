@@ -1,19 +1,19 @@
 // Sidebar.jsx
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useMemo, useEffect, useRef, useState } from "react";
 import {
     Box,
     Button,
+    Card,
+    CardActions,
+    CardContent,
+    CardMedia,
     CircularProgress,
     Grid,
-    Card,
-    CardMedia,
-    CardContent,
-    CardActions,
-    TextField,
-    Typography,
     IconButton,
     Paper,
     Stack,
+    TextField,
+    Typography
 } from "@mui/material";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
@@ -22,7 +22,7 @@ import "./Sidebar.test.css";
 function coverUrlFromDoc(doc) {
     return doc?.cover_i
         ? `https://covers.openlibrary.org/b/id/${doc.cover_i}-M.jpg`
-        : `https://placehold.co/80x120.png?text=${encodeURIComponent(doc?.title || "No+Title")}`;
+        : `https://placehold.co/320x480.png?text=${encodeURIComponent(doc?.title || "No+Title")}`;
 }
 
 function toAppBookPreserveAll(doc) {
@@ -138,7 +138,7 @@ export default function Sidebar({ onAdd }) {
             cover_i: undefined,
             source: "custom",
             created_at: new Date().toISOString(),
-            img: cCover.trim() || `https://placehold.co/80x120.png?text=${encodeURIComponent(cTitle.trim())}`,
+            img: cCover.trim() || `https://placehold.co/320x480.png?text=${encodeURIComponent(cTitle.trim())}`,
         };
         addOne(rawDoc);
         setCTitle("");
@@ -245,21 +245,25 @@ export default function Sidebar({ onAdd }) {
             )}
 
             {/* pagination controls for navigating result pages */}
-            <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-                <IconButton size="small" disabled={!canPrev} onClick={() => setPage((p) => Math.max(1, p - 1))}>
-                    <ArrowBackIosNewIcon fontSize="inherit" />
-                </IconButton>
-                <Typography variant="caption" sx={{ minWidth: 120 }}>
-                    Page {page} / {totalPages} · {numFound.toLocaleString()} results
-                </Typography>
-                <IconButton size="small" disabled={!canNext} onClick={() => setPage((p) => p + 1)}>
-                    <ArrowForwardIosIcon fontSize="inherit" />
-                </IconButton>
-                <Box sx={{ flex: 1 }} />
-                <Button size="small" variant="outlined" onClick={loadMore} disabled={!canNext || loading}>
-                    Load more
-                </Button>
-            </Box>
+            {!loading && items.length > 0 && (
+                <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+                    <IconButton size="small" disabled={!canPrev} onClick={() => setPage((p) => Math.max(1, p - 1))}>
+                        <ArrowBackIosNewIcon fontSize="inherit" />
+                    </IconButton>
+                    <Typography variant="caption" sx={{ minWidth: 120 }}>
+                        Page {page} / {totalPages} · {numFound.toLocaleString()} results
+                    </Typography>
+                    <IconButton size="small" disabled={!canNext} onClick={() => setPage((p) => p + 1)}>
+                        <ArrowForwardIosIcon fontSize="inherit" />
+                    </IconButton>
+                    <Box sx={{ flex: 1 }} />
+                    <Button size="small" variant="outlined" onClick={loadMore} disabled={!canNext || loading}>
+                        Load more
+                    </Button>
+                </Box>
+            )}
+
+
         </Box>
     );
 }
